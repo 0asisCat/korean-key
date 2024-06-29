@@ -1,2 +1,2 @@
 # jap-web
-A website to study Japanese Keyboard Typing
+## A website practice Japanese Keyboard Typing For Fun
