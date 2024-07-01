@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="pagestyle.css">
     </head>
     <body>
+        <fieldset>
         <h1>Sign In サインイン</h1>
         <p>Log in to save progress</p>
         <form method="post" action="">
@@ -15,7 +16,6 @@
                 <label for="password">Create New Password: <input id="password" type="password" pattern="[a-z0-5]{8,}" required></label>
                 <label for="picture">Upload A Profile Picture: <input id="picture" type="file" required></label>
             </fieldset>
-            <fieldset>
                 <label for="referrer">How did you learn about us?
                     <select id="referrer">
                         <option value="">(select one)</option>
@@ -27,10 +27,9 @@
                         <option value="6">Other</option>
                     </select>
                 </label>
-            </fieldset>
-
             <label for="terms-and-conditions"><input type="checkbox" id="terms-and-conditions" required> I accept the <a href="">terms and conditions</a>.</label>
             <input type="submit" value="Submit">
+            </fieldset>
         </form>
     </body>
 </html>
