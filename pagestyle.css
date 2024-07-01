@@ -3,5 +3,7 @@ label{display:block;margin:0.5rem 0;}
 form{margin:0 auto;max-width:400px;min-width:200px;width:70vw;text-align:left;}
 fieldset{border:none;padding:1.5rem 0;border-bottom:1px solid black;}
 fieldset:last-of-type{border-bottom:none;}
+input{background-color:darkkhaki;}
+input, select{margin:10px 0 0 0;width:100%;}
 
 .jk-keyboard .jk-clear{clear:both;}
