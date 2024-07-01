@@ -10,11 +10,18 @@
         <p>Log in to save progress</p>
         <form method="post" action="">
             <fieldset>
-                <label for="username">Enter Username: <input id="username" type="text" required></label>
-                <label for="email">Enter Email: <input id="username" type="email" required></label>
-                <label for="password">Create New Password: <input id="password" type="password" pattern="[a-z0-5]{8,}" required></label>
-                <label for="picture">Upload A Profile Picture: <input id="picture" type="file" required></label>
+                <label for="username">Username: <input id="username" type="text" placeholder="USERNAME ユーザー" required></label>
             </fieldset>
+            <fieldset>
+                <label for="email">Email: <input id="username" type="email" placeholder="EMAIL メール" required></label>
+            </fieldset>
+            <fieldset>
+                <label for="password">New Password: <input id="password" type="password" pattern="[a-z0-5]{8,}" placeholder="PASSWORD パスワード" required></label>
+            </fieldset>
+            <fieldset>
+                <label for="picture">Profile Picture: <input id="picture" type="file" required></label>
+            </fieldset>
+            <fieldset>
                 <label for="referrer">How did you learn about us?
                     <select id="referrer">
                         <option value="">(select one)</option>
@@ -26,7 +33,8 @@
                         <option value="6">Other</option>
                     </select>
                 </label>
-            <label for="terms-and-conditions"><input type="checkbox" id="terms-and-conditions" required> I accept the <a href="">terms and conditions</a>.</label>
+            </fieldset>
+            <label for="terms-and-conditions"><input type="checkbox" id="terms-and-conditions" required> I accept the <a href="">TERMS AND CONDITIONS</a>.</label>
             <input type="submit" value="Submit">
         </form>
     </body>
