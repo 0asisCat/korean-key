@@ -4,18 +4,6 @@ body{text-align:center;background-color:azure;font-family:Arial, Helvetica, sans
 
 main, textarea, .kr-keyboard{margin-top:40px;}
 
-label{display:block;margin:0.5rem 0;}
-
-form{margin:0 auto;max-width:400px;min-width:200px;width:70vw;text-align:left;padding:2em;}
-
-input,select{background-color:#686868;border:1px solid #686868;min-height:2em;color:white;margin:10px 0 0 0;width:100%;}
-
-input[type="submit"]{display:block;width:60%;margin:0 auto;font-size:1.1rem;height:2em;background-color:rgb(1, 1, 65);min-width:300px;}
-
-input[type="submit"]:hover{background-color:rgb(111, 111, 224);}
-
-input[type="file"]{padding:1px 2px;}
-
 .kr-keyboard .kr-clear{clear:both;}
 
 .kr-key{width:35px;}
