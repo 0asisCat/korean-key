@@ -10,15 +10,26 @@ main, textarea, .kr-keyboard{margin-top:40px;}
 
 .kr-keyboard{width:800px;height:260px;margin-left:auto;margin-right:auto;border:10px solid var(--border-color);background-color:var(--inside-color);}
 
-.kr-keyboard button{margin:2px;text-align:center;display:block;float:left;height:3em;font-family: "Lucida Console";font-weight:bolder;color:var(--key-color);background-color:var(--button-color);font-size:1rem;border-radius:20%;}
+.kr-keyboard button{margin:2px;text-align:center;display:block;float:left;height:3em;font-family: "Lucida Console";font-weight:bolder;color:var(--key-color);background-color:var(--button-color);font-size:1rem;border-radius:5%;}
 
+/* KEYS */
 .kr-key{width:50px;}
 
 .kr-keyboard #kr-backspace{width:94px;}
 
 .kr-keyboard #kr-tab, #k25{width:72px;}
 
+.kr-keyboard #kr-caps-lock, #kr-enter{width:99px;}
+
+.kr-keyboard #kr-shift{width:125.7px;}
+
+#kr-ctrl, #kr-alt{width:80px;}
+
+.kr-keyboard #kr-space{width:459px;}
+
 .kr-special span{font-size:0.6rem;}
+
+span .arrow{font-size:15px;}
 
 @media (max-width:650px) {
     .kr-keyboard{width:630px;margin:1px;}
