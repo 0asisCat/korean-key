@@ -1,4 +1,4 @@
-:root{--key-color:white;--button-color:rgb(42, 42, 42);}
+:root{--key-color:white;--button-color:rgb(42, 42, 42);--border-color:rgb(42, 42, 42);--inside-color:black;}
 
 *{margin:0;padding:0;}
 
@@ -8,15 +8,17 @@ main, textarea, .kr-keyboard{margin-top:40px;}
 
 .kr-keyboard .kr-clear{clear:both;}
 
-.kr-keyboard{width:700px;margin-left:auto;margin-right:auto;}
+.kr-keyboard{width:800px;height:260px;margin-left:auto;margin-right:auto;border:10px solid var(--border-color);background-color:var(--inside-color);}
 
-.kr-keyboard button{margin:2px;text-align:center;display:block;float:left;height:3em;font-family: Monaco;font-weight:bolder;color:var(--key-color);background-color:var(--button-color);font-size:1rem;}
+.kr-keyboard button{margin:2px;text-align:center;display:block;float:left;height:3em;font-family: "Lucida Console";font-weight:bolder;color:var(--key-color);background-color:var(--button-color);font-size:1rem;border-radius:20%;}
 
-.kr-key{width:44px;}
+.kr-key{width:50px;}
 
-.kr-keyboard #kr-backspace{width:70px;}
+.kr-keyboard #kr-backspace{width:94px;}
 
-.kr-special span{font-size:0.77rem;}
+.kr-keyboard #kr-tab, #k25{width:72px;}
+
+.kr-special span{font-size:0.6rem;}
 
 @media (max-width:650px) {
     .kr-keyboard{width:630px;margin:1px;}
