@@ -1,3 +1,5 @@
+// https://www.geeksforgeeks.org/build-a-virtual-keyboard-using-html-css-javascript/
+
 // Special Keys
 const backSpace = document.querySelector("#kr-backspace");
 const capsLock = document.querySelector("#kr-caps-lock");
