@@ -1,3 +1,5 @@
+:root{--key-color:white;--button-color:rgb(42, 42, 42);}
+
 *{margin:0;padding:0;}
 
 body{text-align:center;background-color:azure;font-family:Arial, Helvetica, sans-serif;font-size:16px;}
@@ -6,12 +8,18 @@ main, textarea, .kr-keyboard{margin-top:40px;}
 
 .kr-keyboard .kr-clear{clear:both;}
 
-.kr-keyboard{width:630px;margin-left:auto;margin-right:auto;}
+.kr-keyboard{width:700px;margin-left:auto;margin-right:auto;}
 
-.kr-keyboard button{margin:1px;text-align:center;display:block;float:left;height:3em;font-family: monospace;font-weight:bold;}
+.kr-keyboard button{margin:2px;text-align:center;display:block;float:left;height:3em;font-family: Monaco;font-weight:bolder;color:var(--key-color);background-color:var(--button-color);font-size:1rem;}
 
-.kr-key{width:40px;}
+.kr-key{width:44px;}
 
-.kr-keyboard #kr-backspace{width:80px;}
+.kr-keyboard #kr-backspace{width:70px;}
 
-.kr-special span{font-size:0.7rem;}
+.kr-special span{font-size:0.77rem;}
+
+@media (max-width:650px) {
+    .kr-keyboard{width:630px;margin:1px;}
+    .kr-keyboard button{height:3em;}
+    .kr-key{width:40px;}
+}
