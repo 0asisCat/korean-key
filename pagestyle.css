@@ -6,6 +6,12 @@ main, textarea, .kr-keyboard{margin-top:40px;}
 
 .kr-keyboard .kr-clear{clear:both;}
 
-.kr-key{width:35px;}
+.kr-keyboard{width:630px;margin-left:auto;margin-right:auto;}
 
-button{margin:1px;}
+.kr-keyboard button{margin:1px;text-align:center;display:block;float:left;height:3em;font-family: monospace;font-weight:bold;}
+
+.kr-key{width:40px;}
+
+.kr-keyboard #kr-backspace{width:80px;}
+
+.kr-special span{font-size:0.7rem;}
