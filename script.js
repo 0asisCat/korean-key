@@ -15,11 +15,18 @@ let wpm_text = document.querySelector(".curr-wpm");
 let accuracy_text = document.querySelector(".curr-accuracy");
 let errors_text = document.querySelector(".curr-errors");
 let time_text = document.querySelector(".curr-time");
+let cpm_group = document.querySelector(".cpm");
+let wpm_group = document.querySelector(".wpm");
+let error_group = document.querySelector(".errors");
+let accuracy_group = document.querySelector(".accuracy");
+let quote_text = document.querySelector(".quote");
+let input_text = document.querySelector(".input");
 
 const option1 = document.querySelector(".practice-typing");
 const option2 = document.querySelector(".typing-speed");
 const option3 = document.querySelector(".restart-btn");
 const headerStats = document.querySelector("#header");
+
 const options = [{name:"Practice Typing",header:"none"},{name:"Typing Speed",header:"flex"},{name:"Restart Button",header:"none"}];
 const keyboard = {};
 
