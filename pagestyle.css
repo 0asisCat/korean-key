@@ -16,7 +16,7 @@ body{text-align:center;background-color:white;font-family:Arial, Helvetica, sans
 
 textarea{padding:5px;font-size:1.495rem;}
 
-.option button, .restart #restart_btn{width:100px;height:30px;background-color:var(--btns-color);border-color:var(--btns-color);}
+.option button, .restart .restart-btn{width:100px;height:30px;background-color:var(--btns-color);border-color:var(--btns-color);}
 
 /* KEYS */
 .kr-key{width:50px;}
