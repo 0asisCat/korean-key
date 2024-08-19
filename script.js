@@ -1,5 +1,7 @@
 // https://www.geeksforgeeks.org/build-a-virtual-keyboard-using-html-css-javascript/
 
+//FOCUS FIRST ON PRACTICE TYPING FUNCTIONALITIES
+
 // in the future let users decide what timelimit
 let timeLimit = 60;
 let timeLeft = timeLimit;
@@ -42,6 +44,8 @@ option3.onclick = restartButton;
 // functions for options
 function state(options){
     headerStats.style.display = options.header;
+    updateQuote();
+    document.querySelector("#quote").style.fontSize = "1.7rem";
 }
 
 function practiceTyping(){
