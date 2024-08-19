@@ -6,17 +6,21 @@ body{text-align:center;background-color:white;font-family:Arial, Helvetica, sans
 
 .container, .option, .header, textarea, .quote, .kr-keyboard{margin-top:40px;}
 
-.header{color:var(--key-color);background-color:var(--border-color);padding:3px;display:none;justify-content:space-between;width:60%;margin-left: auto;margin-right: auto;}
+.header, .restart .restart-btn, .kr-keyboard{margin-left: auto;margin-right: auto;}
+
+.header{color:var(--key-color);background-color:var(--border-color);padding:3px;display:none;justify-content:space-between;width:60%;}
 
 .quote{font-weight:bolder;}
 
 .kr-keyboard .kr-clear{clear:both;}
 
-.kr-keyboard{width:800px;height:260px;margin-left:auto;margin-right:auto;border:10px solid var(--border-color);background-color:var(--inside-color);}
+.kr-keyboard{width:800px;height:260px;border:10px solid var(--border-color);background-color:var(--inside-color);}
 
 .kr-keyboard button{margin:2px;display:block;float:left;height:3em;font-family: "Lucida Console";font-weight:bolder;color:var(--key-color);background-color:var(--button-color);font-size:1rem;border-radius:5%;padding:6px}
 
 textarea{padding:5px;font-size:1.495rem;}
+
+.restart .restart-btn{display:none;}
 
 .option button, .restart .restart-btn{width:100px;height:30px;background-color:var(--btns-color);border-color:var(--btns-color);}
 
