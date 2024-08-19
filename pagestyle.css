@@ -1,4 +1,4 @@
-:root{--key-color:white;--button-color:rgb(42, 42, 42);--border-color:rgb(42, 42, 42);--inside-color:black;--btns-color:rgb(255, 187, 0);}
+:root{--key-color:white;--button-color:rgb(42, 42, 42);--border-color:rgb(42, 42, 42);--inside-color:black;--btns-color:rgb(255, 187, 0);--active-btn:rgb(255, 224, 130);}
 
 *{margin:0;padding:0;}
 
@@ -18,6 +18,7 @@ textarea{padding:5px;font-size:1.495rem;}
 
 .option button, .restart .restart-btn{width:100px;height:30px;background-color:var(--btns-color);border-color:var(--btns-color);}
 
+.option button:active, .option button:hover,.restart .restart-btn:active, .restart .restart-btn:hover{background-color:var(--active-btn);}
 /* KEYS */
 .kr-key{width:50px;}
 
