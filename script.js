@@ -34,7 +34,7 @@ const option2 = document.querySelector(".typing-speed");
 const option3 = document.querySelector(".restart-btn");
 const headerStats = document.querySelector("#header");
 
-const options = [{name:"Practice Typing",header:"none"},{name:"Typing Speed",header:"flex"},{name:"Restart Button",header:"none"}];
+const options = [{name:"Practice Typing",header:"none",restart:"block"},{name:"Typing Speed",header:"flex",restart:"block"},{name:"Restart Button",header:"none",restart:"none"}];
 const keyboard = {};
 
 option1.onclick = practiceTyping;
@@ -44,6 +44,7 @@ option3.onclick = restartButton;
 // functions for options
 function state(options){
     headerStats.style.display = options.header;
+    option3.style.display = options.restart;
     updateQuote();
     document.querySelector("#quote").style.fontSize = "1.7rem";
 }
