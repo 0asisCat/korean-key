@@ -8,6 +8,8 @@ body{text-align:center;background-color:white;font-family:Arial, Helvetica, sans
 
 .header{color:var(--key-color);background-color:var(--border-color);padding:3px;display:none;justify-content:space-between;width:60%;margin-left: auto;margin-right: auto;}
 
+.quote{font-weight:bolder;}
+
 .kr-keyboard .kr-clear{clear:both;}
 
 .kr-keyboard{width:800px;height:260px;margin-left:auto;margin-right:auto;border:10px solid var(--border-color);background-color:var(--inside-color);}
