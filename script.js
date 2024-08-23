@@ -68,6 +68,7 @@ function typingSpeed(){
 }
 
 function restartButton(){
+    quoteNo = 0;
     state(options[2]);
 }
 
