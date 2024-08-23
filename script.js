@@ -1,4 +1,4 @@
-// https://www.geeksforgeeks.org/build-a-virtual-keyboard-using-html-css-javascript/
+// https://www.geeksforgeeks.org/build-a-virtual-keyboard-using-html-css-javascript/ https://www.youtube.com/watch?v=FkGzvbQ0_Vg
 
 //FOCUS FIRST ON PRACTICE TYPING FUNCTIONALITIES
 
@@ -36,18 +36,14 @@ const headerStats = document.querySelector("#header");
 
 const options = [{name:"Practice Typing",header:"none",restart:"block"},{name:"Typing Speed",header:"flex",restart:"block"},{name:"Restart Button",header:"none",restart:"none"}];
 
-const krKey = document.querySelector('.kr-key');
-const labelReference = document.querySelector('.kr-label-reference');
-const levelNatural = document.querySelector('.kr-level-natural');
-
-const keyboard = [{key:}];
+const hanKeyboard = {};
 
 option1.onclick = practiceTyping;
 option2.onclick = typingSpeed;
 option3.onclick = restartButton;
 
 // keyboard
-function korKey(keyboard){
+function hanKey(hanKeyboard){
     
 }
 
