@@ -35,11 +35,21 @@ const option3 = document.querySelector(".restart-btn");
 const headerStats = document.querySelector("#header");
 
 const options = [{name:"Practice Typing",header:"none",restart:"block"},{name:"Typing Speed",header:"flex",restart:"block"},{name:"Restart Button",header:"none",restart:"none"}];
-const keyboard = {};
+
+const krKey = document.querySelector('.kr-key');
+const labelReference = document.querySelector('.kr-label-reference');
+const levelNatural = document.querySelector('.kr-level-natural');
+
+const keyboard = [{key:}];
 
 option1.onclick = practiceTyping;
 option2.onclick = typingSpeed;
 option3.onclick = restartButton;
+
+// keyboard
+function korKey(keyboard){
+    
+}
 
 // functions for options
 function state(options){
